@@ -3,7 +3,7 @@ import './search-box.styles.css';
 
 export const SearchBox = ({ placeholder, handleChange }) => (
     <input 
-        className="search" 
+        className="search-box" 
         type="text" 
         placeholder={placeholder} 
         onChange={handleChange} 
